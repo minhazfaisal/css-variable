@@ -1,0 +1,54 @@
+/*global*/
+:root{
+	--teal: #1a9e9e;
+	--white: white;
+	--indigo: #093145;
+
+	--pop: 'Poppins', sans-serif;
+
+	--20: 20px;
+	--50: 50px;
+
+	--400p: 400;
+	--500p: 500;
+	--700p: 700;
+
+	--pad: 5px;
+}
+/*global*/
+body{
+	background-color: var(--indigo);
+	font-family: var(--pop);
+}
+/*global*/
+.box h1{
+	font-size: var(--50);
+	font-weight: var(--700p);
+	color: var(--teal);
+	text-align: center;
+	border: 2px solid var(--teal);
+	padding: var(--pad);
+}
+/*global*/
+.box p{
+	font-size: var(--20);
+	font-weight: var(--400p);
+	color: var(--white);
+	text-align: center;
+}
+
+/* local */
+.box h2{
+	--fontSize: 50px; 
+	font-size: var(--fontSize);
+	color: var(--white);
+	text-align: center;
+}
+
+/* global but locally changed*/
+.box h3{
+	--teal: #0fdcdc;
+	color: var(--teal);
+	text-align: center;
+}
+
