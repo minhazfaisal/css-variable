@@ -15,6 +15,7 @@ Global variables can be used through the entire document. To create a variable w
 
 Local variables can be used only inside the selector where it is declared.
 
+Live preview - https://minhazfaisal.github.io/css-variable/
 
 
 
